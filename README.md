@@ -32,9 +32,9 @@ The bag is a slide-out drawer on every page.
 | `js/main.js` | Nav, bag drawer, shop filters, product page and stack builder. |
 
 ## Brand
-- Light blue tone: Sky `#C7DDEE` (announcement bar, badges) · Moonstone `#E2EDF5` (product backgrounds) · Mist `#F0F6FA` (alternate sections) · Line `#D2E0EB`
-- Text: Ink `#13263A` (deep navy) · Hematite `#475869` (secondary)
-- Accent: Blue `#2C6A98` (focus, hover). Errors use `#A13A3A`.
+- Pastel blue tone: Pastel blue `#B3EBF2` (menu bar, product and stack panels) · Page `#EAF9FB` (page background, bag, inputs) · Mist `#D6F3F7` (alternate sections, footer) · Deep pastel `#8FDCE7` (announcement bar) · Line `#9ED6DF`
+- Text: Ink `#13263A` (deep navy) · Hematite `#3D5664` (secondary)
+- Accent: Teal blue `#1D6F86` (focus, hover, "New" badges). Errors use `#A13A3A`.
 - Headings: Bodoni Moda at weight 500 with a lower optical size (`"opsz" 28`) so hairlines stay visible at large sizes · Body: Jost (Google Fonts)
 - Wordmark is set in type ("Sé Rafi"). Swap in a real logo file when one exists.
 

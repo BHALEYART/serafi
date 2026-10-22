@@ -268,8 +268,8 @@
     var formTop = 30, formBot = 530, wTop = 150, wBot = 184;
     var fg = id('form'), fb = id('f');
     var defs = '<linearGradient id="' + fg + '" x1="0" y1="0" x2="1" y2="0">' +
-      '<stop offset="0" stop-color="#BCD0E0"/><stop offset=".35" stop-color="#F5F9FC"/>' +
-      '<stop offset=".7" stop-color="#DCE8F1"/><stop offset="1" stop-color="#B4C9DA"/></linearGradient>' + blurDef(fb);
+      '<stop offset="0" stop-color="#9CD3DC"/><stop offset=".35" stop-color="#F3FCFD"/>' +
+      '<stop offset=".7" stop-color="#D2F1F5"/><stop offset="1" stop-color="#93CBD5"/></linearGradient>' + blurDef(fb);
     function widthAt(y) { return wTop + (wBot - wTop) * ((y - formTop) / (formBot - formTop)); }
     var body = '<ellipse cx="' + cx + '" cy="' + (formBot + 14) + '" rx="140" ry="14" fill="#1c2430" opacity=".12" filter="url(#' + fb + ')"/>';
     body += '<path d="M' + (cx - wBot / 2) + ' ' + formBot + ' L' + (cx - wTop / 2) + ' ' + (formTop + wTop / 2) +
