@@ -32,10 +32,23 @@ The bag is a slide-out drawer on every page.
 | `js/main.js` | Nav, bag drawer, shop filters, product page and stack builder. |
 
 ## Brand
-- White `#FFFFFF` · Moonstone `#ECEEF1` (product backgrounds) · Mist `#F5F6F7` · Hematite `#5A5E66` · Ink `#000000`
-- Accent: Spinel `#8E1F44` (focus, hover, errors, "New" badges). Used sparingly.
-- Headings: Bodoni Moda · Body: Jost (Google Fonts)
+- Light blue tone: Sky `#C7DDEE` (announcement bar, badges) · Moonstone `#E2EDF5` (product backgrounds) · Mist `#F0F6FA` (alternate sections) · Line `#D2E0EB`
+- Text: Ink `#13263A` (deep navy) · Hematite `#475869` (secondary)
+- Accent: Blue `#2C6A98` (focus, hover). Errors use `#A13A3A`.
+- Headings: Bodoni Moda at weight 500 with a lower optical size (`"opsz" 28`) so hairlines stay visible at large sizes · Body: Jost (Google Fonts)
 - Wordmark is set in type ("Sé Rafi"). Swap in a real logo file when one exists.
+
+## Photography
+Lifestyle photos live in `assets/img/` (WebP, max 1200px):
+| File | Used on |
+| --- | --- |
+| `mixed-metal-stacks`, `gold-twist-solitaire-stack`, `gold-marquise-bezel-stacks`, `gemstone-oval-rings`, `gold-diamond-statement-stacks` | Home, "Worn together" |
+| `gold-pave-marquise-stack` | Home, craft section |
+| `gold-bands-sand` | Shop header |
+| `turquoise-gold-pair`, `emerald-sapphire-bezels` | Our story |
+| `rose-gold-layered-stacks` | Sizing and care |
+| `turquoise-silver-bands` | Contact |
+| `silver-geometric-rings` | Not used yet |
 
 ## Connect Shopify
 1. In Shopify admin, install the **Headless** sales channel and create a storefront.

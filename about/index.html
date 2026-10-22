@@ -7,7 +7,7 @@
 <meta name="description" content="Sé Rafi designs fine jewelry as a set: slim 14k gold rings with low settings, made to be stacked.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://bhaleyart.github.io/serafi/about/">
-<meta name="theme-color" content="#FFFFFF">
+<meta name="theme-color" content="#C7DDEE">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Sé Rafi">
 <meta property="og:locale" content="en_US">
@@ -75,7 +75,7 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..600&family=Jost:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body data-root="../" data-page="about">
@@ -120,17 +120,12 @@
         <p>[Workshop location, materials sourcing and production details &mdash; to be confirmed by the brand before launch.]</p>
         <div class="btn-row" style="margin-top:32px"><a class="btn" href="../shop/?category=rings">Shop rings</a><a class="btn btn--line" href="../stack/">Build a stack</a></div>
       </div>
-      <div class="story-art" data-story-art aria-hidden="true"></div>
+      <div class="story-photos">
+        <div class="photo"><img style="object-position:50% 80%" src="../assets/img/turquoise-gold-pair.webp" alt="A turquoise inlay band and an engraved gold band worn together"></div>
+        <div class="photo"><img src="../assets/img/emerald-sapphire-bezels.webp" alt="Gold bezel rings with an emerald and a blue sapphire" loading="lazy"></div>
+      </div>
     </div>
   </div>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var el = document.querySelector('[data-story-art]');
-      var by = {}; (window.SERAFI_CATALOG || []).forEach(function (p) { by[p.handle] = p; });
-      var r = [['dome-band','rose'],['thread-band','yellow'],['whisper-pave-band','white'],['dew-solitaire','yellow'],['rope-twist-band','yellow'],['thread-band','rose']];
-      el.innerHTML = window.SerafiArt.stackSVG(r.map(function (x) { return { spec: by[x[0]].art, metal: x[1] }; }));
-    });
-  </script>
 
 </main>
 
