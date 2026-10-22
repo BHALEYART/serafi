@@ -36,7 +36,12 @@ The bag is a slide-out drawer on every page.
 - Text: Ink `#13263A` (deep navy) · Hematite `#3D5664` (secondary)
 - Accent: Teal blue `#1D6F86` (focus, hover, "New" badges). Errors use `#A13A3A`.
 - Headings: Bodoni Moda at weight 500 with a lower optical size (`"opsz" 28`) so hairlines stay visible at large sizes · Body: Jost (Google Fonts)
-- Wordmark is set in type ("Sé Rafi"). Swap in a real logo file when one exists.
+- Logos (vector, traced from the brand files, navy `#13263A`):
+  - `assets/logo-wordmark.svg`: header
+  - `assets/logo-lockup.svg`: monogram over wordmark, footer and share image
+  - `assets/logo-monogram.svg`: "SR" monogram on its own
+  - `assets/favicon.svg`, `favicon.ico`, `assets/icon-*.png`, `assets/apple-touch-icon.png`: monogram on pastel blue
+  - `assets/logo.png`: lockup on pastel blue, used in search-engine schema
 
 ## Photography
 Lifestyle photos live in `assets/img/` (WebP, max 1200px):
@@ -93,7 +98,7 @@ Search the project for `[` to find them:
 ## Images
 The demo store draws its own placeholder jewelry illustrations (`js/art.js`), in all three metals. Real product photos come in automatically from Shopify once connected; square images on a light gray background match the layout best. The stack preview on the home page and builder always uses the drawings.
 
-`assets/og-image.png` (1200×630), `assets/logo.png`, `assets/favicon.svg`, `favicon.ico` and the app icons are generated placeholders. Replace them when the final logo is ready.
+`assets/og-image.png` (1200×630) pairs the logo lockup with a drawn ring stack. Swap in a photo-based share image if you prefer.
 
 ## SEO
 - Every page has its own title, description, canonical URL, Open Graph and Twitter tags.
